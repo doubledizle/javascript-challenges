@@ -1,6 +1,6 @@
 // Write a function that returns "hello world!" in an interesting way.
 
-var greet = function(){  
+let greet = function(){  
   let f = "Now, this is a story all about how........................."[31] + 
           "My life got flipped-turned upside down....................."[ 6] +
           "And I'd like to take a minute just sit right there........."[ 8] +
