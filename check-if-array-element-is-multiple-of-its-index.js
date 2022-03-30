@@ -16,3 +16,8 @@ function multipleOfIndex(array) {
 function multipleOfIndex(array) {
   return array.filter((num, i) => num % i === 0);
 }
+
+
+// Refactored further into an anonymous function
+
+let multipleOfIndex = array => array.filter((num, i) => num % i === 0);
