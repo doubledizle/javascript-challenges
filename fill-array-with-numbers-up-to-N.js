@@ -7,3 +7,10 @@ function arr(n) {
   }
   return newArr
 }
+
+
+// Refactored into an arrow function using array methods
+
+const reverseSeq = n => {
+  return Array(n).fill(0).map((x, i) => n - i )
+}

@@ -5,7 +5,7 @@
 function squareOrSquareRoot(array) {
   let newArr = []
   let r = Math.sqrt(x)
-  array.forEach((x,i) => Number.isInteger(r) ? newArr.push(r)) : newArr.push(x**2))
+  array.forEach((x,i) => Number.isInteger(r) ? newArr.push(r) : newArr.push(x*x))
   return newArr
 }
 
@@ -15,7 +15,7 @@ function squareOrSquareRoot(array) {
 function squareOrSquareRoot(array) {
   return array.map(x => {
     const r = Math.sqrt(x);
-    return (r % 1 == 0) ? r : (x*x);
+    return (r % 1 == 0) ? r : (x*x)
   });  
 }
 

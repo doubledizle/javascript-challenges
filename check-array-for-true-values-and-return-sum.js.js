@@ -1,16 +1,22 @@
-function countSheeps(arrayOfSheep) {
-  let totalSheep = 0
-  let length = arrayOfSheep.length
+function countSomething(arr) {
+  let total = 0
+  let length = arr.length
   for(i = 0; i < length; i++){
-    if(arrayOfSheep[i] === true){
-      totalSheep++
+    if(arr[i] === true){
+      total++
     }
   }
-  return totalSheep
+  return total
 }
 
-// Simplified
 
-function countSheeps(arrayOfSheeps) {
-  return arrayOfSheeps.filter(Boolean).length;
+// Refactored to use less code
+
+function countSomething(arr) {
+  return arr.filter(Boolean).length
 }
+
+
+// Reflected into an anonymous function
+
+const countSomething = arr => arr.filter(Boolean).length

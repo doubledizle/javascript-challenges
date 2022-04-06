@@ -13,4 +13,4 @@ function addLength(str) {
 
 // Refactored using map
 
-const addLength = str => str.split(' ').map(elem => elem + ' ' + elem.length);
+const addLength = str => str.split(' ').map(elem => elem + ' ' + elem.length)

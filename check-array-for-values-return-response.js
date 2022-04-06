@@ -1,4 +1,4 @@
-// Write a function that takes a weight and height value, calculates bmi, and returns weight classification
+// Write a function that takes a weight and height value, calculates bmi, and returns weight classification based on bmi result
 
 function bmi(weight, height) {
   let bmi = weight / height**2
@@ -14,4 +14,4 @@ function bmi(weight, height) {
 
 // Refactored into an anonymous function
 
-const bmi = (weight, height, bmi = weight / height**2) =>  bmi <= 18.5 ? "Underweight" : bmi <= 25 ? "Normal" : bmi <= 30 ? "Overweight" : "Obese";
+const bmi = (weight, height, bmi = weight / height**2) =>  bmi <= 18.5 ? "Underweight" : bmi <= 25 ? "Normal" : bmi <= 30 ? "Overweight" : "Obese"
