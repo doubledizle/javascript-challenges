@@ -3,10 +3,10 @@
 function fakeBin(str){
   return str
   .split('')
-  .map( (num, index) => num < 5 ? num = 0 : num = 1 )
+  .map( num => num < 5 ? num = 0 : num = 1 )
   .join('')
 }
 
-// Simplified
+// Refactored
 
-fakeBin = x => x.split('').map(e => e < 5 ? 0 : 1).join('');
+fakeBin = str => str.split('').map(elem => elem < 5 ? 0 : 1).join('')

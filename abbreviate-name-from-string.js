@@ -7,16 +7,13 @@ function abbrevName(name) {
 }
 
 
-// Simpliefied
+// Refactored to use less code
 
 function abbrevName(name){
-
-  var nameArray = name.split(" ");
-  return (nameArray[0][0] + "." + nameArray[1][0]).toUpperCase();
+  return (name.split(' ').map(x => x.substr(0, 1).toUpperCase()).join('.')) + "."
 }
 
-// Simplified two
 
-function abbrevName(name){
-  return name.split(' ').map(x => x.substr(0, 1).toUpperCase()).join('.');
-}
+// Refactored into an anonymous function
+
+const abbrevName = name => (name.split(' ').map(x => x.substr(0, 1).toUpperCase()).join('.')) + "."
