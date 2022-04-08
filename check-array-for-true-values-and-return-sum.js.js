@@ -2,7 +2,7 @@ function countSomething(arr) {
   let total = 0
   let length = arr.length
   for(i = 0; i < length; i++){
-    if(arr[i] === true){
+    if(arr[i] === true) {
       total++
     }
   }

@@ -3,7 +3,7 @@
 function fakeBin(str){
   return str
   .split('')
-  .map( num => num < 5 ? num = 0 : num = 1 )
+  .map(num => num < 5 ? num = 0 : num = 1)
   .join('')
 }
 

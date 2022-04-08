@@ -1,11 +1,11 @@
 // Write a function that takes an array and replaces specific character codes with their letter version
 
 function isVow(arr){
-  for (i=0, l=arr.length; i<l; ++i)
+  for (i=0; i<arr.length; ++i)
   {
-    let char = String.fromCharCode(arr[i])
+    let y = String.fromCharCode(arr[i])
     if ('aeiou'.indexOf(char) !== -1)
-    arr[i] = char;
+    arr[i] = y;
   }
   
   return arr;
