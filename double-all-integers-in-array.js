@@ -9,9 +9,9 @@ function maps(x){
 // Simplified
 
 function maps(x){
-  return x.map(n => n * 2);
+  return x.map(n => n * 2)
 }
 
 // Simplified further
 
-maps = x => x.map(e => e * 2);
+maps = x => x.map(e => e * 2)
