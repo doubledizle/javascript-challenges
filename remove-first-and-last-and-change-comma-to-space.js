@@ -15,5 +15,5 @@ function array(arr){
 // Refactored
 
 function array(arr){
-  return arr.split(",").slice(1,-1).join(" ") || null;
+  return arr.split(",").slice(1,-1).join(" ") || null
 }

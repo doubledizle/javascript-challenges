@@ -15,9 +15,9 @@ function sumOfDifferences(arr) {
 // Refactored using the Math method
 
 function sumOfDifferences(arr) {
-    return arr.length > 1 ? Math.max(...arr) - Math.min(...arr) : 0;
+    return arr.length > 1 ? Math.max(...arr) - Math.min(...arr) : 0
 }
 
 // Refactored further into an anonymous function
 
-const sumOfDifferences = arr => arr.length <= 1 ? 0 : Math.max(...arr) - Math.min(...arr);
+const sumOfDifferences = arr => arr.length <= 1 ? 0 : Math.max(...arr) - Math.min(...arr)

@@ -7,4 +7,4 @@ function check(arr, val) {
 
 // Simpliefied with arrow syntax
 
-const check = (arr, val) => arr.includes(val);
+const check = (arr, val) => arr.includes(val)
