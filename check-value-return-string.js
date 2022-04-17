@@ -3,3 +3,4 @@
 const ageCheck = age =>
   age < 10 ? 'drink juice' :
   age < 21 ? 'drink soda' : 'drink beer'
+  

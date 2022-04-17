@@ -15,4 +15,3 @@ function rentalCar(days) {
 // Refactored into an anonymous function using a Ternary statement as a value
 
 const rentalCarCost = days => days * 40 - ((days >= 7) ? 50 : ((d >= 3) ? 20 : 0))
-
