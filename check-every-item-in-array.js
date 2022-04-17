@@ -21,4 +21,4 @@ function all( arr, fun ){
 
 // Refactored into an anonymous function
 
-const all = ( arr, fun ) => arr.every( fun );
+const all = ( arr, fun ) => arr.every( fun )
