@@ -12,6 +12,6 @@ function bmi(weight, height) {
     return "Obese"
 }
 
-// Refactored into an anonymous function
+// Refactored into an arrow function
 
 const bmi = (weight, height, bmi = weight / height**2) =>  bmi <= 18.5 ? "Underweight" : bmi <= 25 ? "Normal" : bmi <= 30 ? "Overweight" : "Obese"

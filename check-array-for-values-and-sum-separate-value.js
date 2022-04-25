@@ -12,6 +12,6 @@ function points(games) {
 }
 
 
-// Refactored into an anonymous function using the Reduce method
+// Refactored into an arrow function using the Reduce method
 
 const points = games => games.reduce((sum, [x, _, y]) => sum + (x > y ? 3 : x == y), 0)

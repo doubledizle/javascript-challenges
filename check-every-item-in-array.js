@@ -19,6 +19,6 @@ function all( arr, fun ){
   return arr.every(fun)
 }
 
-// Refactored into an anonymous function
+// Refactored into an arrow function
 
 const all = ( arr, fun ) => arr.every( fun )

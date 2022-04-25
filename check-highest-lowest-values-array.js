@@ -5,6 +5,6 @@ function minMax(arr){
 }
 
 
-// Refactored into an anonymous function
+// Refactored into an arrow function
 
 const minMax = arr => [Math.min(...arr), Math.max(...arr)]

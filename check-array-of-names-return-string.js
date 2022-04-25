@@ -10,7 +10,7 @@ function likes(names) {
 }
 
 
-// Refactored into an anonymous function using nested ternary operators
+// Refactored into an arrow function using nested ternary operators
 
 const likes = names => names.length === 0 ? `no one likes this` :
   names.length === 1 ? `${names[0]} likes this` :

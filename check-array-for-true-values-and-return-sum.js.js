@@ -17,6 +17,6 @@ function countSomething(arr) {
 }
 
 
-// Reflected into an anonymous function
+// Reflected into an arrow function
 
 const countSomething = arr => arr.filter(Boolean).length

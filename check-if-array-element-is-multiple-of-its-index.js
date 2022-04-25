@@ -18,6 +18,6 @@ function multipleOfIndex(array) {
 }
 
 
-// Refactored further into an anonymous function
+// Refactored further into an arrow function
 
 let multipleOfIndex = array => array.filter((num, i) => num % i === 0)
