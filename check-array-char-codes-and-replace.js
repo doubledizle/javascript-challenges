@@ -12,6 +12,6 @@ function isVow(arr){
 }
 
 
-// Refactored into an anonymous function
+// Refactored into an arrow function
 
 const isVow = a => a.map(x=>'aeiou'.includes(y = String.fromCharCode(x)) ? y : x)

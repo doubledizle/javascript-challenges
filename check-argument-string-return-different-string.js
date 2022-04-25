@@ -9,6 +9,6 @@ function updateLight(current) {
     return 'green'
 }
 
-// Refactored into an anonymous function
+// Refactored into an arrow function
 
 const updateLight = current => current === 'yellow' ? 'red' : current === 'green' ? 'yellow' : 'green'

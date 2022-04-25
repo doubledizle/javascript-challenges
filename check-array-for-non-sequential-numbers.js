@@ -9,13 +9,13 @@ function firstNonConsecutive(arr) {
   return null
 }
 
-// Simpliefied using Find
+// Refactored using Find
 
 function firstNonConsecutive (arr) {
     let result = arr.find((x, i) => x !== i + arr[0])
     return (Number.isInteger(result)) ? result : null
 }
 
-// Simpliefied to a single line
+// Refactored into an arrow function
 
 firstNonConsecutive = arr => arr.length == 1 ? null : arr[0] + 1 !== arr[1] ? arr[1] : firstNonConsecutive(arr.slice(1)) 

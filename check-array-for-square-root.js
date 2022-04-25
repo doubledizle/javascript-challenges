@@ -20,6 +20,6 @@ function squareOrSquareRoot(array) {
 }
 
 
-// Refactored into an anonymous function
+// Refactored into an arrow function
 
 const squareOrSquareRoot = array => array.map(x => Math.sqrt(x) % 1 == 0 ? Math.sqrt(x) : (x*x))

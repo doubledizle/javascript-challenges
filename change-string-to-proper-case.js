@@ -7,6 +7,6 @@ function hello(name) {
 }
 
 
-// Refactored from an anonymous function
+// Refactored into an arrow function
 
 const hello = name => name ? `Hello ${name.charAt(0).toUpperCase() + name.toLowerCase().slice(1)}` : 'Hello World'
