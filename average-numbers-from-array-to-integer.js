@@ -12,6 +12,6 @@ function getAverage(marks){
   return Math.floor(marks.reduce((a, b) => a + b) / marks.length)
 }
 
-// Refactored into an anonymous function
+// Refactored into an arrow function
 
 const getAverage = marks => Math.floor(marks.reduce((a, b) => a + b) / marks.length)

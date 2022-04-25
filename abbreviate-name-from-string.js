@@ -14,6 +14,6 @@ function abbrevName(name){
 }
 
 
-// Refactored into an anonymous function
+// Refactored into an arrow function
 
 const abbrevName = name => (name.split(' ').map(x => x.substr(0, 1).toUpperCase()).join('.')) + "."
