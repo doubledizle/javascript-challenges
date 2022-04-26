@@ -5,6 +5,6 @@ function take(arr, n) {
 }
 
 
-// Refactored into an anonymous function
+// Refactored into an arrow function
 
 const take = (arr, n) => arr.slice(0, n)

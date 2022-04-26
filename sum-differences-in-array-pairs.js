@@ -18,6 +18,6 @@ function sumOfDifferences(arr) {
     return arr.length > 1 ? Math.max(...arr) - Math.min(...arr) : 0
 }
 
-// Refactored further into an anonymous function
+// Refactored into an arrow function
 
 const sumOfDifferences = arr => arr.length <= 1 ? 0 : Math.max(...arr) - Math.min(...arr)

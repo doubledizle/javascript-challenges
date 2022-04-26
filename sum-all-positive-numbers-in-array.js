@@ -5,6 +5,6 @@ function positivSum(arr) {
 }
 
 
-// Refactored into an anonymous function
+// Refactored into an arrow function
 
 const positiveSum = arr => arr.reduce((acc,c) => acc + (c >= 0 ? c : 0), 0)

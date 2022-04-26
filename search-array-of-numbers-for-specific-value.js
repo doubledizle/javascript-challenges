@@ -5,6 +5,6 @@ function check(arr, val) {
   return found
 }
 
-// Simpliefied with arrow syntax
+// Refactored into an arrow function
 
 const check = (arr, val) => arr.includes(val)

@@ -6,12 +6,12 @@ function sum(numbers) {
   return acc
 }
 
-// Simplified using reduce
+// Refactored using Reduce
 
 function sum(numbers) {
   return numbers.reduce((acc, x) => acc + +x, 0)
 }
 
-// Further simplified to a single line
+// Refactored into an arrow function
 
 const sumMix = x => x.reduce((acc, x) => acc + +x, 0)

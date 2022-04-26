@@ -6,6 +6,6 @@ function twoSort(s) {
   return first
 }
 
-// Simplified to one line via Arrow function
+// Refactored into an arrow function
 
 twoSort = s => s.sort()[0].split('').join('***')

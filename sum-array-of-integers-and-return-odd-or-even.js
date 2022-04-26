@@ -10,12 +10,12 @@ function oddOrEven(array) {
   }
 }
 
-// Simplified with Reduce
+// Refactored using Reduce
 
 function oddOrEven(arr) {
   return arr.reduce((acc, x)=> acc + +x, 0) % 2 ? 'odd' : 'even'
 }
 
-// Further simplified to a single line
+// Refactored into an arrow function
 
 const oddOrEven = a => a.reduce((acc, x) => acc + +x, 0) %2 === 0 ? "even" : "odd"

@@ -6,6 +6,6 @@ function descendingOrder(n){
 }
 
 
-// Refactored into an anonymous function
+// Refactored into an arrow function
 
 const descendingOrder = n => parseInt(n.toString().split('').sort().reverse().join(''))

@@ -1,10 +1,10 @@
 // Write a function that takes an array of integers and returns their average
 
-let findAverage = function(nums) {
+let findAverage1 = function(nums) {
   return nums.reduce((acc,c) => acc + c, 0) / nums.length
 }
 
 
-// Refactored using an arrow function
+// Refactored uinto an arrow function
 
-const findAverage = nums => nums.reduce((acc, c) => acc + c, 0) / nums.length
+const findAverage2 = nums => nums.reduce((acc, c) => acc + c, 0) / nums.length

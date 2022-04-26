@@ -6,6 +6,6 @@ function squareDigits(num){
 }
 
 
-// Refactored into an anonymous function
+// Refactored into an arrow function
 
 const squareDigits = num => Number(num.toString().split('').map(x => x * x).join(''))
