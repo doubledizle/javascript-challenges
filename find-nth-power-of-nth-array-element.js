@@ -11,6 +11,6 @@ function index(arr, n) {
 }
 
 
-// Refactored to an anonymous function
+// Refactored to an arrow function
 
 const index = (arr, n) => arr.length > n ? arr[n]**n : -1

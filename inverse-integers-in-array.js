@@ -6,8 +6,12 @@ function invert(array) {
   return newArray;
 }
 
-// Simpliefied
+// Refactored using Map
 
 function invert(array) {
    return array.map( x => x === 0 ? x : -x);
 }
+
+// Refactored into an arrow function
+
+const invert = arr => arr.map(x => x === 0 ? x : -x)

@@ -5,6 +5,6 @@ function stringToArray(string){
   return string.split(' ');
 }
 
-// Simplified
+// Refactored into an arrow function
 
 const stringToArray = string => string.split(' ') // Splits the string to create an array of words separated by a space

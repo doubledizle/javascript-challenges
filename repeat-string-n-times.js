@@ -8,7 +8,7 @@ function repeatStr (n, s) {
   return total;
 }
 
-// or simplified
+// Refactored
 
 function repeatStr (n, s) {
   return s.repeat(n);

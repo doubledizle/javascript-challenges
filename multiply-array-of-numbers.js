@@ -4,6 +4,6 @@ function grow(x){
   return x.reduce((a, b) => a * b, 1)
 }
 
-// Simplified
+// Refactored into an arrow function
 
 const grow = x => x.reduce((a, b) => a * b)

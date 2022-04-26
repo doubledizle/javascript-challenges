@@ -5,7 +5,7 @@ function wordFilter (words) {
   return words.filter(item => !remove.includes(item))
 };
 
-// Simplified using an Arrow function
+// Refactored into an arrow function
 
 let remove = ["Can't", "Give up", "Failure", "Impossible", "Never"];
 words => words.filter(item => !remove.includes(item))

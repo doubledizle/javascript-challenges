@@ -6,12 +6,12 @@ function maps(x){
   return newArr
 }
 
-// Simplified
+// Refactored
 
 function maps(x){
   return x.map(n => n * 2)
 }
 
-// Simplified further
+// Refactored into an arrow function
 
 maps = x => x.map(e => e * 2)

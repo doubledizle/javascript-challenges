@@ -9,6 +9,6 @@ function toAlternateCase(str) {
 }
 
 
-// Refactored into an anonymous function
+// Refactored into an arrow function
 
 let toAlternateCase = str => str.split("").map(a => a === a.toUpperCase()? a.toLowerCase(): a.toUpperCase()).join('')

@@ -8,6 +8,6 @@ function removeEveryOther(arr){
   return hold
 }
 
-// Simplified using Filter
+// Refactored into an arrow function using Filter
 
 const removeEveryOther = arr => arr.filter((item, i) =>  i % 2 == 0);

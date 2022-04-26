@@ -3,3 +3,8 @@
 function numberToString(num) {
   return String(num)
 }
+
+
+// Refactored from an arrow function
+
+const numberToString = num => String(num)

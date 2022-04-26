@@ -9,6 +9,6 @@ function areaOrPerimeter(l , w) {
 };
 
 
-// Refactored into an anonymous function
+// Refactored into an arrow function
 
 const areaOrPerimeter = (l , w) => l === w ? l * w : l * 2 + w * 2

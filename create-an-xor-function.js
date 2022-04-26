@@ -5,6 +5,6 @@ function xor(a, b) {
 }
 
 
-// Refactored to an anonymous function
+// Refactored to an arrow function
 
 const xor = (a, b) => a != b

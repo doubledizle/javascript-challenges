@@ -5,6 +5,6 @@ function doubleChar(str) {
 }
 
 
-// Refactored into an anonymouse function
+// Refactored into an arrow function
 
 const doubleChar = str => str.split('').map(x => x + x).join('')

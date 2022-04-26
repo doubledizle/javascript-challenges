@@ -13,7 +13,7 @@ function finalGrade (exam, projects) {
 }
 
 
-// Refactored to simpler if statments
+// Refactored to simpler IF statments
 
 function finalGrade (exam, projects) {
   if(exam > 90 || projects > 10) return 100;

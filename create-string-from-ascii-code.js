@@ -5,6 +5,6 @@ function getChar(c){
 }
 
 
-// Refactored into an anonymous function
+// Refactored into an arrow function
 
 const getChar = c => String.fromCharCode(c)

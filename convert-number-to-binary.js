@@ -7,6 +7,6 @@ function toBinary(num){
 }
 
 
-// Refactored into an anonymous function
+// Refactored into an arrow function
 
 const toBinary = num => Number(num.toString(2))

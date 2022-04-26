@@ -7,7 +7,7 @@ function differenceInAges(ages){
 }
 
 
-// Simplified using the Math method
+// Refactored using the Math method
 
 function differenceInAges (ages) {
 
@@ -20,6 +20,6 @@ function differenceInAges (ages) {
 }
 
 
-// Further simplified with an arrow function
+// Refactored into an arrow function
   
 const differenceInAges = ages => (min = Math.min(...ages),max = Math.max(...ages),[min, max, max - min])

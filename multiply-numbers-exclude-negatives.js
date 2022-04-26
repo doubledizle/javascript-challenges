@@ -9,6 +9,6 @@ function paperwork(num1,num2) {
 }
 
 
-// Refactored into an anonymous function
+// Refactored into an arrow function
 
 const paperwork = (num1, num2) => (num1 < 0) || (num2 < 0) ? 0 : num1 * num2

@@ -17,6 +17,6 @@ function duckDuckGoose(players, goose) {
 }
 
 
-// Refactored into an anonymous function
+// Refactored into an arrow function
 
 const duckDuckGoose = (players, goose) => players[(goose - 1) % players.length].name

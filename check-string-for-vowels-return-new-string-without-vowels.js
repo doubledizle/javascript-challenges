@@ -5,6 +5,6 @@ function disemvowel(str) {
 }
 
 
-// Refactored into an anonymous function that
+// Refactored into an arrow function that
 
 const disemvowel = str => str.replace(/[aeiou]/gi, '')

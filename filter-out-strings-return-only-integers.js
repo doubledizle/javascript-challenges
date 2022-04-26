@@ -5,6 +5,6 @@ function filterList(arr) {
 }
 
 
-// Refactored into an anonymous function
+// Refactored into an arrow function
 
 const filterList = arr => arr.filter(v => typeof v == 'number')
