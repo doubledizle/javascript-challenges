@@ -11,4 +11,4 @@ function makeNegative(num) {
 
 // Refactored into an arrow function
 
-const makeNegative = num = > num > 0 ? -num : num
+const makeNegative = num => num > 0 ? -num : num
