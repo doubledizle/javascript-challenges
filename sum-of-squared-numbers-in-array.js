@@ -5,3 +5,8 @@ function squareSum(numbers){
   numbers.forEach((x,i) => total += x * x)
   return total
 }
+
+
+// Refactored into an arrow function using Reduce
+
+const squareSum = numbers => numbers.reduce((acc,c) => acc += c * c)

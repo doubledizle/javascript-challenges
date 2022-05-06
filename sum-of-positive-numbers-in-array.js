@@ -9,3 +9,8 @@ function positiveSum(arr){
   }
   return total
 }
+
+
+// Return into an arrow function
+
+const positiveSum = arr => arr.reduce((acc, c) => c > 0 ? acc + c : acc + 0)
