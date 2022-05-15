@@ -7,7 +7,7 @@ function distinct(arr) {
 }
 
 
-// Refactored into an anonymous function
+// Refactored into an arrow function
 
 const distinct = arr => arr.filter((elem, index) => arr.indexOf(elem) === index);
 
