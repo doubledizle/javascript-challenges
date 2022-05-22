@@ -7,3 +7,8 @@
 function findNextSquare(sq) {
   return Number.isInteger(Math.sqrt(sq)) ? (Math.sqrt(sq) + 1)**2 : -1
 }
+
+
+// Refactored into an arrow function
+
+const findNextSquare = sq => Number.isInteger(Math.sqrt(sq)) ? (Math.sqrt(sq) + 1)**2 : -1
