@@ -4,4 +4,3 @@ function stray(numbers) {
   let sorted = numbers.sort((a, z) => a - z)
   return sorted[0] != sorted[1] ? sorted[0] : sorted[sorted.length - 1]
 }
-
