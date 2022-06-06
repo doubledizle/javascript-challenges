@@ -18,3 +18,4 @@ function rot13(message){
   
   return message.split('').map(char => encrypt(char)).join('')
 }
+
