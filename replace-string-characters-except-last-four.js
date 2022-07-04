@@ -10,3 +10,8 @@ function maskify(cc) {
 function maskify(cc) {
   return cc.slice(-4).padStart(cc.length,'#')
 }
+
+
+// Refactored into an arrow function
+
+const maskify = cc => cc.slice(-4).padStart(cc.length,'#')
