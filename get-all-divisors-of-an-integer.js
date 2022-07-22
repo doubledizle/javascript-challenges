@@ -9,3 +9,11 @@ function divisors(integer) {
   }
   return divisors.length === 0 ? `${integer} is prime` : divisors
 }
+
+
+// Refactored to reduce and compact code
+
+function divisors(int) {
+  for(var div = [], i = 2; i < int; i++) if(int % i === 0) div.push(i)
+  return div.length > 0 ? div : int + " is prime"
+}
