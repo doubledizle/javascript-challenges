@@ -4,3 +4,9 @@ const anagrams = (word, words) => {
   const sortWord = (str) => str.split('').sort().join('')
   return words.filter(item => sortWord(item) === sortWord(word))
 }
+
+
+// Refactored to use less code
+
+const sortWord = str => str.split('').sort().join('')
+const anagrams = (word, words) => words.filter(item => sortWord(item) === sortWord(word))
